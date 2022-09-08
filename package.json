@@ -1,5 +1,5 @@
 {
-  "name": "@hasanjoldic/db-seed",
+  "name": "@hasan.joldic/db-seed",
   "version": "0.1.0",
   "description": "Seed a postgres database using pg and pg-migrate ",
   "main": "dist/index.js",
