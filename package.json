@@ -1,0 +1,37 @@
+{
+  "name": "@hasanjoldic/db-seed",
+  "version": "0.1.0",
+  "description": "Seed a postgres database using pg and pg-migrate ",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanjoldic/db-seed.git"
+  },
+  "keywords": [
+    "seed",
+    "pg",
+    "pg-migrate",
+    "postgres",
+    "database",
+    "db"
+  ],
+  "author": "Hasan Joldic <work@hasanjoldic.com> (https://hasanjoldic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hasanjoldic/db-seed/issues"
+  },
+  "homepage": "https://github.com/hasanjoldic/db-seed#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/pg": "^8.6.5",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "pg": "^8.8.0"
+  }
+}

@@ -1,2 +1,3 @@
-# db-seed
-Seed a postgres database using pg and pg-migrate
+# @hasanjoldic/db-seed
+
+## Seed a postgres database using pg and pg-migrate
